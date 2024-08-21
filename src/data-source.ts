@@ -3,7 +3,6 @@ import { DataSource } from "typeorm";
 import { User } from "./entity/User";
 import * as dotenv from "dotenv";
 import { Order } from "./entity/Order";
-import { Product } from "./entity/Product";
 dotenv.config();
 const { DB_HOST, DB_PORT, PG_USERNAME, PG_PASSWORD, DB_DATABASE } = process.env;
 
